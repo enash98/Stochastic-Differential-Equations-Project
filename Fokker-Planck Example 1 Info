@@ -1,0 +1,12 @@
+This gif shows the solution to the Fokker-Planck equation associated to the Stochastic DE given by $dX_t = \mu ( X_t, t ) dt + \sigma ( X_t, t ) dW_t$ (LaTeX source code)
+where $\mu(x,t) = \sin( 2 \pi x / L )$ and where $\sigma(x,t)$ is a constant value w.r.t x and t
+
+-- dW_t is the differential form of the 'Wiener-Process'
+
+The probability distribution takes non-zero values for 0 <= x <= L, and vanishes otherwise.
+The derivative w.r.t x is taken to vanish at the end points x=0 and x=L (Neumann boundary conditions)
+
+The initial distribution has all of its mass contained within the leftmost half of the domain
+
+For more information see:
+https://en.wikipedia.org/wiki/Fokker%E2%80%93Planck_equation
